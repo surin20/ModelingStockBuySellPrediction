@@ -1,6 +1,7 @@
 # 2023-1-PSAT-team-timeseries
 2023년 1학기 통계분석학회 P-SAT 시계열자료분석팀 주제분석
 
+
 ## 💻 프로젝트 소개
 <주식 초보자의 리스크 관리를 위한 매수/매도 추천 서비스>📈
 
@@ -12,12 +13,14 @@
 
 개발 기간: 23.04.16 ~ 23.05.19
 
+
 ## ❤️ 팀 구성 및 역할
 - 김민(팀장): 데이터 수집, 데이터 전처리, Y~X EDA, 변수선택(KS검정), XGB, LSTM-CNN, LGBM
 - 김동환: 등락률 라벨링, 데이터 전처리, Y~X EDA, 변수선택(인과관계검정), VAR, LGBM, SVM, log reg
 - 서유진: 데이터 수집(+크롤링), 데이터 전처리, X변수 EDA, LSTM회귀(threshold자동화)
 - 이수린: X변수 EDA, 변수선택(PCA, 요인분석, VIF, importance), XGB, NaiveBayes
 - 장다연: 데이터 전처리, 한글/영문 기사 감성분석, randomforest, XGB, LGBM
+
 
 ## 🔍 분석 흐름
 1. 데이터 수집
@@ -27,6 +30,7 @@
 5. 변수 선택 (인과관계 검정, VIF, PCA, 요인분석, feature importance, KS검정 시도)
 6. labeled y변수 예측 모델링 (with imbalanced class problem)
 7. 예측 결과 시각화 및 결과 분석
+
 
 ## 🚨 difficulty
 매수/매도에 비해 예측 라벨의 수가 많아서 클래스 불균형이 심각했음
