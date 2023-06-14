@@ -32,6 +32,10 @@
 7. 예측 결과 시각화 및 결과 분석
 
 
+## 📈 모델링 개요
+![화면 캡처 2023-06-14 212644](https://github.com/mminiiii/ModelingStockBuySellPrediction/assets/90174257/ef628d73-e77e-4e37-a0ec-97bb7c19c735)
+
+
 ## 🚨 클래스 불균형 문제
 매수/매도에 비해 예측 라벨의 수가 많아서 클래스 불균형이 심각 -> 매수/매도에 대한 예측 성능 저조
 
@@ -40,6 +44,11 @@
 - 모델 학습 시 클래스별 샘플 가중치 반영
 - 라벨 회귀 예측 -> 검증 set으로 분류 threshold 결정 -> 최종 분류
 
+
 ## 📃 결과
 ![화면 캡처 2023-06-14 212213](https://github.com/mminiiii/ModelingStockBuySellPrediction/assets/90174257/60fad7c1-5b94-4a24-a004-aaed0c71976c)
 ![화면 캡처 2023-06-14 212242](https://github.com/mminiiii/ModelingStockBuySellPrediction/assets/90174257/ab0a5ce1-e32e-4508-a379-f7543abe4bbd)
+![화면 캡처 2023-06-14 212511](https://github.com/mminiiii/ModelingStockBuySellPrediction/assets/90174257/4a5403a3-b952-433f-bd1c-527da7ebc030)
+![화면 캡처 2023-06-14 212533](https://github.com/mminiiii/ModelingStockBuySellPrediction/assets/90174257/e84f0203-acd0-4baa-9579-9108bd9abd88)
+![화면 캡처 2023-06-14 212603](https://github.com/mminiiii/ModelingStockBuySellPrediction/assets/90174257/c36b4367-947a-4837-9d38-32889bfea767)
+![화면 캡처 2023-06-14 212619](https://github.com/mminiiii/ModelingStockBuySellPrediction/assets/90174257/1206e5ed-a46d-47a9-b6d2-e7b03b96fd66)
