@@ -18,7 +18,7 @@
 - 김민(팀장): 데이터 수집, 데이터 전처리, Y~X EDA, 변수선택(KS검정), XGB, LSTM-CNN, LGBM
 - 김동환: 등락률 라벨링, 데이터 전처리, Y~X EDA, 변수선택(인과관계검정), VAR, LGBM, SVM, log reg
 - 서유진: 데이터 수집(+크롤링), 데이터 전처리, X변수 EDA, LSTM회귀(threshold자동화)
-- 이수린: X변수 EDA, 변수선택(PCA, 요인분석, VIF, importance), XGB, NaiveBayes
+- 이수린: X변수 EDA, 변수선택(PCA, 요인분석, VIF, importance), 시계열 윈도잉, XGB, LGBM, NaiveBayes
 - 장다연: 데이터 전처리, 한글/영문 기사 감성분석, randomforest, XGB, LGBM
 
 
